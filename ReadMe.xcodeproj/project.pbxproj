@@ -74,6 +74,7 @@
 		0A2B32F02582BCDA009DAE48 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				0AEE30072506B62B003FCA10 /* Info.plist */,
 				0AEE2FF92506B62A003FCA10 /* AppDelegate.swift */,
 				0AEE2FFB2506B62A003FCA10 /* SceneDelegate.swift */,
 			);
@@ -105,7 +106,6 @@
 				0A2B32EF2582BCB2009DAE48 /* Views */,
 				0AEE30022506B62B003FCA10 /* Assets.xcassets */,
 				0AEE30042506B62B003FCA10 /* LaunchScreen.storyboard */,
-				0AEE30072506B62B003FCA10 /* Info.plist */,
 			);
 			path = ReadMe;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "ReadMe Tint Color";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ReadMe/Info.plist;
+				INFOPLIST_FILE = ReadMe/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,7 +359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "ReadMe Tint Color";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ReadMe/Info.plist;
+				INFOPLIST_FILE = ReadMe/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
